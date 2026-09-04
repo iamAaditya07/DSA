@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aadityasrivastava/Documents/GitHub/DSA/pattern/p1'
+relocations:     []
+...
