@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    //pair sum problem
     // array is sorted
     // optimized using two pointers
     vector<int> arr = {2, 3, 4, 6, 10, 12};
