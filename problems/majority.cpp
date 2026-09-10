@@ -27,7 +27,7 @@ int main()
         // CHECK HERE
         if (freq > vec.size()/2)
         {
-            cout << ans << endl;
+            cout << "Majority element is "<<ans << endl;
             break;
         }
     }
