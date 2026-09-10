@@ -15,6 +15,6 @@ int main()
         cs=0;
        
     }
-    cout<<"MAx SubArray sum = "<<ms;
+    cout<<"MAx SubArray sum = "<<ms<<endl;
     return 0;
 }
