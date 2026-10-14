@@ -6,8 +6,9 @@ int main()
 {
     //binary search method 
     // works on sorted array/vector
+    // time complexity = O(log n)
     vector<int>vec={2,3,4,5,6,7,8};
-    int target=8;
+    int target=9;
     int st=0,end=vec.size()-1;
     bool a=false;
     while (st<=end)
@@ -26,6 +27,7 @@ int main()
 
     }
     if(a==true) cout<<"Target found"<<endl;
+    else cout<<"Not found";
 
     return 0;
 }

@@ -6,7 +6,7 @@ int main()
 {
 
     // size and capacity
-    //when we use push back new array capacity get doubled
+    //when we use push back new array capacity get doubled if there is no place left
     vector <int>vec;
     vec.push_back(0);
     vec.push_back(1);
