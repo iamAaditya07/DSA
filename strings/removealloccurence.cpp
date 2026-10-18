@@ -6,7 +6,7 @@ int main()
 {
     string s="dabcdbcddabcdadbc";
     string part="abc";
-    while(s.find(part)<s.length()){
+    while(s.length()>0 &&s.find(part)<s.length()){
         int i=s.find(part);
         s.erase(i,part.length());
     }
